@@ -1,0 +1,65 @@
+VERSION ""
+
+
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+    CAT_DEF_
+    CAT_
+    FILTER
+    BA_DEF_DEF_
+    EV_DATA_
+    ENVVAR_DATA_
+    SGTYPE_
+    SGTYPE_VAL_
+    BA_DEF_SGTYPE_
+    BA_SGTYPE_
+    SIG_TYPE_REF_
+    VAL_TABLE_
+    SIG_GROUP_
+    SIG_VALTYPE_
+    SIGTYPE_VALTYPE_
+    BO_TX_BU_
+    BA_DEF_REL_
+    BA_REL_
+    BA_DEF_DEF_REL_
+    BU_SG_REL_
+    BU_EV_REL_
+    BU_BO_REL_
+    SG_MUL_VAL_
+
+BS_: 
+BU_: 
+BO_ 2147484057 Vector__XXXMsg409: 8 Vector__XXX
+   SG_ Vector__XXXMsg409Sig1 : 0|8@1+ (1,0) [0|1] "" Vector__XXX
+   SG_ Vector__XXXMsg409Sig2 : 8|8@1+ (1,0) [0|1] "" Vector__XXX
+   SG_ Vector__XXXMsg409Sig3 : 16|8@1+ (1,0) [0|1] "" Vector__XXX
+   SG_ Vector__XXXMsg409Sig4 : 24|8@1+ (1,0) [0|1] "" Vector__XXX
+   SG_ Vector__XXXMsg409Sig5 : 32|8@1+ (1,0) [0|1] "" Vector__XXX
+   SG_ Vector__XXXMsg409_Height_LF : 40|6@1+ (1,0) [0|1] "tbd" Vector__XXX
+   SG_ Vector__XXXMsg409_Height_RF : 46|6@1+ (1,0) [0|1] "tbd" Vector__XXX
+   SG_ Vector__XXXMsg409_Height_LR : 52|6@1+ (1,0) [0|1] "tbd" Vector__XXX
+   SG_ Vector__XXXMsg409_Height_RR : 58|6@1+ (1,0) [0|1] "tbd" Vector__XXX
+
+BO_ 2147484173 Vector__XXXMsg525: 8 Vector__XXX
+   SG_ Vector__XXXMsg525Sig352 : 36|2@1+ (5,0) [0|15] "Selected" Vector__XXX
+
+BA_DEF_ BO_ "GenMsgBackgroundColor" STRING ;
+BA_DEF_ BO_ "GenMsgForegroundColor" STRING ;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_DEF_ "GenMsgBackgroundColor" "#ffffff";
+BA_DEF_DEF_ "GenMsgForegroundColor" "#000000";
+BA_DEF_DEF_ "matchingcriteria" 0;
+BA_DEF_DEF_ "filterlabeling" 0;
+BA_ "GenMsgForegroundColor" BO_ 2147484057 "#000000";
+VAL_ 2147484173 Vector__XXXMsg525Sig352 0 "Very_High" 1 "High" 2 "Medium" 3 "Low";
